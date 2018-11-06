@@ -30,7 +30,7 @@ class BullsEyeTests: XCTestCase {
     func testScoreIsCompleted(){
         
         
-        let guess = gameUnderTest.targetValue + 5
+        let guess = gameUnderTest.targetValue - 5
         
         _ = gameUnderTest.check(guess: guess)
         
